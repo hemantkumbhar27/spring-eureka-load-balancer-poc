@@ -1,0 +1,9 @@
+Eureka Server: http://localhost:8761
+
+
+Step 5: Running the Application
+1. Start the Eureka Server (EurekaServerApplication).
+2. Start the two service instances on different ports (Service1Application on 8081 and 8082).
+3. Start the load balancer client (LoadBalancerClientApplication).
+4. Access the load balancer client endpoint at:
+   http://localhost:8083/client/invoke
